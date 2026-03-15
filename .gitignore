@@ -1,0 +1,19 @@
+# Environment variables (keep your API key secret!)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# uvicorn / FastAPI
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
