@@ -1,4 +1,4 @@
-# THREATWATCH — Live Global Cyberattack Map
+# live cyberTHREAT — Live Global Cyberattack Map
 
 Real-time cyberattack visualization. Browser dashboard + Python WebSocket backend.
 
@@ -27,7 +27,7 @@ uvicorn main:app --reload
 ```
 
 ### 5. Open the dashboard
-Open `index.html` in your browser. Change `DEMO_MODE = true` to `DEMO_MODE = false` at the top of the script in index.html.
+Open `index.html` in your browser. Change `DEMO_MODE = true` to `DEMO_MODE = false` at the top of the script in `index.html`.
 
 ## What it shows
 - Animated attack arcs from source country → target data center
